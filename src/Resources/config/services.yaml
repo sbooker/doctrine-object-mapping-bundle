@@ -1,0 +1,9 @@
+services:
+  Sbooker\DoctrineObjectMapping\NormalizableTypeEventListener:
+    class: Sbooker\DoctrineObjectMapping\NormalizableTypeEventListener
+    arguments:
+      - '@=service(parameter("sbooker_doctrine_object_mapping.normalizer"))'
+      - '@=service(parameter("sbooker_doctrine_object_mapping.denormalizer"))'
+    tags:
+      - { name: doctrine.event_listener, event: onPreNormalize }
+      - { name: doctrine.event_listener, event: onPreDenormalize }
