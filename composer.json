@@ -11,8 +11,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": "^7.2",
-    "sbooker/doctrine-object-mapping": "^0.5",
+    "php": "^7.3 || ^8.0",
+    "sbooker/doctrine-object-mapping": "^1.0",
     "symfony/dependency-injection": "^5.0",
     "symfony/http-kernel": "^5.0",
     "symfony/config": "^5.0"
