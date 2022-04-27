@@ -11,6 +11,9 @@ use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 
 final class SbookerDoctrineObjectMappingExtension extends ConfigurableExtension
 {
+    /**
+     * @throws \Exception
+     */
     protected function loadInternal(array $mergedConfig, ContainerBuilder $container)
     {
         foreach ($mergedConfig as $key => $value) {
