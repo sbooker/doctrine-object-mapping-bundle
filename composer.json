@@ -11,11 +11,11 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": "^7.3 || ^8.0",
-    "sbooker/doctrine-object-mapping": "^1.0",
-    "symfony/dependency-injection": "^5.0 || ^6.0",
-    "symfony/http-kernel": "^5.0 || ^6.0",
-    "symfony/config": "^5.0 || ^6.0"
+    "php": ">=8.2",
+    "sbooker/doctrine-object-mapping": "^1.2",
+    "symfony/dependency-injection": "^6.4 | ^7.0",
+    "symfony/http-kernel": "^6.4 | ^7.0",
+    "symfony/config": "^6.4 | ^7.0"
   },
   "autoload": {
     "psr-4": {
